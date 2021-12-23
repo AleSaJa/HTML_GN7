@@ -1,0 +1,46 @@
+#cabecera {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #2F2F2F;
+    font-weight: 400;
+    text-decoration: rgb(68, 68, 68);
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+#fondo {
+    background: #833ECE;
+    background: -moz-linear-gradient(-45deg, #833ECE 0%, #1C6EA4 88%, #2FC5BC 100%);
+    background: -webkit-linear-gradient(-45deg, #833ECE 0%, #1C6EA4 88%, #2FC5BC 100%);
+    background: linear-gradient(135deg, #833ECE 0%, #1C6EA4 88%, #2FC5BC 100%);
+}
+
+#texto {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+#imagen {
+    width: auto;    height: 250px;
+}
+
+
+#imagen:hover{
+    filter: opacity(.5);
+    transition-duration: 2s;
+    border-radius:50%;-webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #1e4eec;
+    -webkit-box-shadow: 0px 0px 15px 15px #1e4eeC;
+    transform: rotate(360deg);-webkit-transform: rotate(360deg);
+}
